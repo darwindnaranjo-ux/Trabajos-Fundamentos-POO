@@ -4,7 +4,7 @@ static int edad = 20;
 
 static const float alturaMaxima = 2.00;
 
-class Persona(){
+class Persona{
 
 private:
     int edad;
@@ -89,7 +89,7 @@ int main(){
     Persona Gary(32, 1.75, 'M', "Gary Oak");
 
     std::cout << "La edad de Misty es: " << Misty.getEdad() << std::endl;
-    std::cout << "La altura de Brock es: " << Brock.getAltura()
+    std::cout << "La altura de Brock es: " << Brock.getAltura();
     std::cout << "El sexo de Ash es: " << Ash.getSexo() << std::endl;
     std::cout << "La edad de Sabrina es: " << Sabrina.getEdad() << std::endl;
     std::cout << "El nombre de Gary es: " << Gary.getNombre() << std::endl;
